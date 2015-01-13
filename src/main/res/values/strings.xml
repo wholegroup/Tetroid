@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Название программы -->
+	<string name="application">Tetroid</string>
+	<string name="application_upper">TETROID</string>
+
+	<!--
+		КЛЮЧИ ДЛЯ SHARED PREFERENCES  
+	 -->
+	
+	<!-- Название ключа настроек -->
+	<string name="preferences_id">B31C4E2918774A94BA35931D19852E85</string>
+
+	<!-- последнее введенное имя пользователя -->
+	<string name="preferences_score_oldname">845C32CE14714F489C1E54B3D4970C3F</string>
+
+	<!-- список рекордов -->
+	<string name="preferences_score_array">6318A3B5B9E242D8A988D10757D105B8</string>
+
+	<!-- показывать сетку -->
+	<string name="preferences_settings_grid">737801374654463392B59C6739B8606F</string>
+	<string name="preferences_settings_grid_default">true</string>
+
+	<!-- показывать подсказку на поле -->
+	<string name="preferences_settings_promt">6917F3C3BB594625923CCBDFC3A8ECC7</string>
+	<string name="preferences_settings_promt_default">true</string>
+
+	<!-- показывать следующие фигуры -->
+	<string name="preferences_settings_next">81287A9D0C604BE2BC7396B01C8BA32E</string>
+	<string name="preferences_settings_next_default">true</string>
+
+	<!-- формировать цветное поле -->
+	<string name="preferences_settings_colorgrid">178EF67324C646569F749F16185DACE0</string>
+	<string name="preferences_settings_colorgrid_default">true</string>
+
+	<!-- формировать классические фигуры -->
+	<string name="preferences_settings_figure_classic">768A38E70F184BFBAFDA3A8ACC2FAD65</string>
+	<string name="preferences_settings_figure_classic_default">false</string>
+
+	<!-- звуковое оформление -->
+	<string name="preferences_settings_sound">46B3841B836D451D94470B3F6E54A12A</string>
+	<string name="preferences_settings_sound_default">true</string>
+
+	<!--
+		СТАРТ
+	 -->
+
+	<string name="start_menu_start">Start</string>
+	<string name="start_menu_score">Score</string>
+	<string name="start_menu_settings">Settings</string>
+	<string name="start_menu_exit">Quit</string>
+
+	<!--
+		ИГРА  
+	 -->
+
+	<!-- Надпись для вывода очков -->
+	<string name="play_text_score">SCORE</string>
+
+	<!-- Надпись для вывода линий -->
+	<string name="play_text_lines">LINES</string>
+
+	<!-- Надпись для вывода уровня -->
+	<string name="play_text_level">LEVEL</string>
+
+	<!-- Надпись окончания игры -->
+	<string name="play_gameover_text">GAME OVER</string>
+
+	<!-- Вывод количества очков -->
+	<string name="play_gameover_score">Score</string>
+
+	<!-- Вывод количества убранных линий -->
+	<string name="play_gameover_lines">Lines</string>
+
+	<!-- Текст на кнопке окончания игры -->
+	<string name="play_gameover_btn_next">Next</string>
+
+	<!-- Текст в окне паузы -->
+	<string name="pause_text">PAUSED\nPush Button To Resume</string>
+	<string name="pause_button_resume">Resume</string>
+	
+	<!-- Название параметра для хранения объекта тетроида -->
+	<string name="play_parameter_instance">DD7FF8CA-C970-4C08-BED4-B107699F382F</string>
+	
+	<!-- Название параметра для хранения статистики убранных линий текущего уровня -->
+	<string name="play_parameter_statlines">B50BF5E2-F347-4B57-AD55-FAED11D75B1F</string>
+
+	<!--
+		ТАБЛИЦА РЕКОРДОВ  
+	 -->
+
+	<!-- Заголовок окна рекордов -->
+	<string name="score_activity_title">High Scores – Lines</string>
+
+	<!-- Имя пользователя в таблице рекордов по-умолчанию -->
+	<string name="score_default_name">Unknown</string>
+
+	<!-- Имя пользователя в таблице рекордов по-умолчанию -->
+	<string name="score_dialog_name">Your name</string>
+
+	<!-- Текст для вывода количества очков -->
+	<string name="score_text_score">Score:</string>
+
+	<!-- Текст для вывода количества линий -->
+	<string name="score_text_lines">Lines:</string>
+
+	<!-- Название параметра для передачи набранных очков -->
+	<string name="score_parameter_score">291F168D-46A8-4087-8A9D-3CFB7BE37EF2</string>
+
+	<!-- Название параметра для передачи количества линий -->
+	<string name="score_parameter_lines">CF2ABA1A-2A3C-4BA7-8CD6-4A9749579469</string>
+	
+	<!--
+		НАСТРОЙКИ  
+	 -->
+
+	<!-- Заголовок окна настроек -->
+	<string name="settings_activity_title">Settings</string>
+
+	<!-- Настройка: показывать сетку поля -->
+	<string name="settings_grid_title">Grid</string>
+	<string name="settings_grid_summary">Draw grid on a playing field</string>
+
+	<!-- Настройка: показывать подсказку -->
+	<string name="settings_promt_title">Hint</string>
+	<string name="settings_promt_summary">Show ghost-piece</string>
+
+	<!-- Настройка: показывать следующие фигуры -->
+	<string name="settings_next_title">Next pieces</string>
+	<string name="settings_next_summary">Pieces preview</string>
+
+	<!-- Настройка: формировать цветное поле -->
+	<string name="settings_colorgrid_title">Colorful playing field</string>
+	<string name="settings_colorgrid_summary">Leave fallen breaks colorful</string>
+
+	<!-- Настройка: формировать класические фигуры -->
+	<string name="settings_figure_classic_title">Classic pieces</string>
+	<string name="settings_figure_classic_summary">Draw classic pieces</string>
+
+	<!-- Настройка: звуковое сопровождение -->
+	<string name="settings_sound_title">Sound</string>
+	<string name="settings_sound_summary">Switch on sound</string>
+
+	<!--
+		РАСЧЕТ БОНУСА 
+	 -->
+
+	<!-- Название параметра для передачи количества очков -->
+	<string name="levelup_parameter_score">2536A3A7-203E-4B8E-B574-90B8F89078A9</string>
+
+	<!-- Название параметра для передачи количества 1x линий -->
+	<string name="levelup_parameter_lines_1x">8C03DD32-2469-45C0-A714-1D9B39C97A3E</string>
+
+	<!-- Название параметра для передачи количества 2x линий -->
+	<string name="levelup_parameter_lines_2x">77E7EF2E-D59F-4895-9269-C8AB41E2251C</string>
+
+	<!-- Название параметра для передачи количества 3x линий -->
+	<string name="levelup_parameter_lines_3x">18EF2B73-7AA1-44F1-A133-02FFFB238EF3</string>
+
+	<!-- Название параметра для передачи количества 4x линий -->
+	<string name="levelup_parameter_lines_4x">AF610063-25F1-4AA7-B6E5-2F5BA9C40F36</string>
+	
+	<!-- Заголовок активности -->
+	<string name="levelup_header_text">LEVEL UP</string>
+
+	<!-- Надпись "БОНУС" -->
+	<string name="levelup_bonus_text">BONUS</string>
+
+	<!-- Надпись "ВСЕГО ОЧКОВ" -->
+	<string name="levelup_score_text">TOTAL SCORE</string>
+	
+	<string name="levelup_singles">SINGLES</string>
+	<string name="levelup_doubles">DOUBLES</string>
+	<string name="levelup_triples">TRIPLES</string>
+	<string name="levelup_tetroid">TETROID</string>
+	
+</resources>

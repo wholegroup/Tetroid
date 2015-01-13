@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<com.wholegroup.tetroid.PlayView
+		android:id="@+id/playview"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<ImageButton
+			android:id="@+id/play_btn_left"
+			android:layout_width="64dip"
+			android:layout_height="64dip"
+   		android:scaleType="fitXY"
+   		android:src="@drawable/btn_play_left"
+   		android:background="@android:color/transparent"
+			android:contentDescription="@null" />
+   </LinearLayout>
+   		
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<ImageButton
+			android:id="@+id/play_btn_right"
+			android:layout_width="64dip"
+			android:layout_height="64dip"
+			android:layout_marginTop="64dip"
+    		android:scaleType="fitXY"
+    		android:src="@drawable/btn_play_right"
+    		android:background="@android:color/transparent"
+			android:contentDescription="@null" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<ImageButton
+			android:id="@+id/play_btn_rotate_left"
+			android:layout_width="64dip"
+			android:layout_height="64dip"
+			android:layout_marginTop="128dip"
+    		android:scaleType="fitXY"
+    		android:src="@drawable/btn_play_rotate_left"
+    		android:background="@android:color/transparent"
+			android:contentDescription="@null" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<ImageButton
+			android:id="@+id/play_btn_rotate_right"
+			android:layout_marginTop="192dip"
+			android:layout_width="64dip"
+			android:layout_height="64dip"
+    		android:scaleType="fitXY"
+    		android:src="@drawable/btn_play_rotate_right"
+    		android:background="@android:color/transparent"
+			android:contentDescription="@null" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<ImageButton
+			android:id="@+id/play_btn_down"
+			android:layout_marginTop="256dip"
+			android:layout_width="128dip"
+			android:layout_height="64dip"
+    		android:scaleType="fitXY"
+    		android:src="@drawable/btn_play_down"
+    		android:background="@android:color/transparent"
+			android:contentDescription="@null" />
+	</LinearLayout>
+ 
+	<RelativeLayout
+		android:id="@+id/playview_layoutpause"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:visibility="invisible"
+		android:background="#BB000001">
+		
+		<LinearLayout
+			android:layout_centerInParent="true"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+
+			<TextView
+				android:id="@+id/playview_layoutpause_text"
+				android:text="@string/pause_text"
+				android:lineSpacingMultiplier="1.5"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:textColor="#ff8888ff"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<Button 
+				android:id="@+id/playview_layoutpause_button"
+				android:focusableInTouchMode="true"
+				android:text="@string/pause_button_resume" 
+				android:layout_marginTop="10dip"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:layout_gravity="center_horizontal" />
+				
+		</LinearLayout>
+			
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:id="@+id/play_gameover"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:visibility="invisible"
+		android:background="#BB000001">
+
+		<LinearLayout
+			android:layout_centerInParent="true"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+	
+			<TextView
+				android:text="@string/play_gameover_text"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:gravity="center"
+				android:textSize="45sp"
+				android:textColor="#FF0000"
+				android:textStyle="bold"
+			/>
+
+			<TextView
+				android:id="@+id/play_gameover_score"
+				android:text="Score: 99999"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dip"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:gravity="center"
+			/>
+
+			<TextView
+				android:id="@+id/play_gameover_lines"
+				android:text="Lines: 999"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dip"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:gravity="center"
+			/>
+
+			<Button
+				android:id="@+id/play_gameover_btn_next"
+				android:focusableInTouchMode="true"
+				android:text="@string/play_gameover_btn_next" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="20dip" 
+				android:paddingRight="20dip"
+				android:layout_marginTop="20dip"
+				android:layout_gravity="center_horizontal"/>
+
+		</LinearLayout>
+	</RelativeLayout>
+
+</FrameLayout>

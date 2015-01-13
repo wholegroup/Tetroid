@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<!-- Показывать сетку  -->
+	<CheckBoxPreference 
+		android:key="@string/preferences_settings_grid" 
+		android:summary="@string/settings_grid_summary" 
+		android:title="@string/settings_grid_title"
+		android:defaultValue="@string/preferences_settings_grid_default" />
+		
+	<!-- Показывать подсказку -->
+	<CheckBoxPreference 
+		android:key="@string/preferences_settings_promt" 
+		android:summary="@string/settings_promt_summary" 
+		android:title="@string/settings_promt_title"
+		android:defaultValue="@string/preferences_settings_promt_default" />
+
+	<!-- Показывать следующие фигуры -->
+	<CheckBoxPreference 
+		android:key="@string/preferences_settings_next" 
+		android:summary="@string/settings_next_summary" 
+		android:title="@string/settings_next_title"
+		android:defaultValue="@string/preferences_settings_next_default" />
+
+	<!-- Выводить цветное игровое поле -->
+	<CheckBoxPreference 
+		android:key="@string/preferences_settings_colorgrid" 
+		android:summary="@string/settings_colorgrid_summary" 
+		android:title="@string/settings_colorgrid_title"
+		android:defaultValue="@string/preferences_settings_colorgrid_default" />
+		
+	<!-- Классические фигуры -->
+	<CheckBoxPreference
+		android:key="@string/preferences_settings_figure_classic"
+		android:summary="@string/settings_figure_classic_summary"
+		android:title="@string/settings_figure_classic_title"
+		android:defaultValue="@string/preferences_settings_figure_classic_default" />
+		
+	<!-- Звук -->
+	<CheckBoxPreference
+		android:key="@string/preferences_settings_sound"
+		android:summary="@string/settings_sound_summary"
+		android:title="@string/settings_sound_title"
+		android:defaultValue="@string/preferences_settings_sound_default" />
+	
+</PreferenceScreen>

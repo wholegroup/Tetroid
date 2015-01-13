@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--
+		СТАРТ
+	 -->
+
+	<string name="start_menu_start">Départ</string>
+	<string name="start_menu_score">Records</string>
+	<string name="start_menu_settings">Paramètres</string>
+	<string name="start_menu_exit">Sortie</string>
+
+	<!--
+		ИГРА  
+	 -->
+
+	<!-- Надпись для вывода очков -->
+	<string name="play_text_score">POINTS</string>
+
+	<!-- Надпись для вывода линий -->
+	<string name="play_text_lines">LIGNES</string>
+
+	<!-- Надпись для вывода уровня -->
+	<string name="play_text_level">NIVEAU</string>
+
+	<!-- Надпись окончания игры -->
+	<string name="play_gameover_text">LA PARTIE EST FINIE</string>
+
+	<!-- Вывод количества очков -->
+	<string name="play_gameover_score">Points</string>
+
+	<!-- Вывод количества убранных линий -->
+	<string name="play_gameover_lines">Lignes</string>
+
+	<!--  Текст на кнопке окончания игры -->
+	<string name="play_gameover_btn_next">Suite</string>
+
+	<string name="pause_text">PAUSE\nPresser le bouton pour continuer</string>
+	<string name="pause_button_resume">Continuer</string>
+
+
+	<!--
+		ТАБЛИЦА РЕКОРДОВ  
+	 -->
+
+	<!-- Заголовок окна рекордов -->
+	<string name="score_activity_title">Tableau de records</string>
+
+	<!-- Имя пользователя в таблице рекордов по-умолчанию -->
+	<string name="score_default_name">Inconnu</string>
+
+	<!-- Имя пользователя в таблице рекордов по-умолчанию -->
+	<string name="score_dialog_name">Votre nom</string>
+
+	<!-- Текст для вывода количества очков -->
+	<string name="score_text_score">Points:</string>
+
+	<!-- Текст для вывода количества линий -->
+	<string name="score_text_lines">Lignes:</string>
+
+	<!--
+		НАСТРОЙКИ  
+	 -->
+
+	<!-- Заголовок окна настроек -->
+	<string name="settings_activity_title">Paramètres</string>
+
+	<!-- Настройка: показывать сетку поля -->
+	<string name="settings_grid_title">Grille</string>
+	<string name="settings_grid_summary">Dessiner la grille sur le champ de jeu</string>
+
+	<!-- Настройка: показывать подсказку -->
+	<string name="settings_promt_title">Suggestion</string>
+	<string name="settings_promt_summary">Montrer l’ombre de la pièce</string>
+
+	<!-- Настройка: показывать следующие фигуры -->
+	<string name="settings_next_title">Pièces suivantes</string>
+	<string name="settings_next_summary">Donner une vue sur les pièces suivantes</string>
+
+	<!-- Настройка: формировать цветное поле -->
+	<string name="settings_colorgrid_title">Champ de couleur</string>
+	<string name="settings_colorgrid_summary">Laisser les pièces tombées de couleur</string>
+
+	<!-- Настройка: формировать класические фигуры -->
+	<string name="settings_figure_classic_title">Pièces classiques</string>
+	<string name="settings_figure_classic_summary">Dessiner les pièces classiques</string>
+
+	<!-- Настройка: звуковое сопровождение -->
+	<string name="settings_sound_title">Son</string>
+	<string name="settings_sound_summary">Mettre en marche l’accompagnement sonore</string>
+
+	<!--
+		РАСЧЕТ БОНУСА 
+	 -->
+
+	<!-- Заголовок активности -->
+	<string name="levelup_header_text">NIVEAU ▲</string>
+
+	<!-- Надпись "БОНУС" -->
+	<string name="levelup_bonus_text">BONUS</string>
+
+	<!-- Надпись "ВСЕГО ОЧКОВ" -->
+	<string name="levelup_score_text">POINTS TOTAL</string>
+
+	<string name="levelup_singles">SIMPLE</string>
+	<string name="levelup_doubles">DOUBLE</string>
+	<string name="levelup_triples">TRIPLE</string>
+	<string name="levelup_tetroid">TETROID</string>
+	
+</resources>

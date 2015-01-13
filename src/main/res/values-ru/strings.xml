@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--
+		СТАРТ
+	 -->
+
+	<string name="start_menu_start">Старт</string>
+	<string name="start_menu_score">Рекорды</string>
+	<string name="start_menu_settings">Настройки</string>
+	<string name="start_menu_exit">Выход</string>
+
+	<!--
+		ИГРА  
+	 -->
+
+	<!-- Надпись для вывода очков -->
+	<string name="play_text_score">ОЧКИ</string>
+
+	<!-- Надпись для вывода линий -->
+	<string name="play_text_lines">ЛИНИИ</string>
+
+	<!-- Надпись для вывода уровня -->
+	<string name="play_text_level">УРОВЕНЬ</string>
+
+	<!-- Надпись окончания игры -->
+	<string name="play_gameover_text">ИГРА ЗАКОНЧЕНА</string>
+
+	<!-- Вывод количества очков -->
+	<string name="play_gameover_score">Очков</string>
+
+	<!-- Вывод количества убранных линий -->
+	<string name="play_gameover_lines">Линий</string>
+
+	<!--  Текст на кнопке окончания игры -->
+	<string name="play_gameover_btn_next">Далее</string>
+
+	<string name="pause_text">ПАУЗА\nНажмите кнопку для продолжения</string>
+	<string name="pause_button_resume">Продолжить</string>
+
+
+	<!--
+		ТАБЛИЦА РЕКОРДОВ  
+	 -->
+
+	<!-- Заголовок окна рекордов -->
+	<string name="score_activity_title">Таблица рекордов</string>
+
+	<!-- Имя пользователя в таблице рекордов по-умолчанию -->
+	<string name="score_default_name">Неизвестный</string>
+
+	<!-- Имя пользователя в таблице рекордов по-умолчанию -->
+	<string name="score_dialog_name">Ваше имя</string>
+
+	<!-- Текст для вывода количества очков -->
+	<string name="score_text_score">Очков:</string>
+
+	<!-- Текст для вывода количества линий -->
+	<string name="score_text_lines">Линий:</string>
+
+	<!--
+		НАСТРОЙКИ  
+	 -->
+
+	<!-- Заголовок окна настроек -->
+	<string name="settings_activity_title">Настройки</string>
+
+	<!-- Настройка: показывать сетку поля -->
+	<string name="settings_grid_title">Решетка</string>
+	<string name="settings_grid_summary">Рисовать решетку на игровом поле</string>
+
+	<!-- Настройка: показывать подсказку -->
+	<string name="settings_promt_title">Подсказка</string>
+	<string name="settings_promt_summary">Показывать тень фигуры</string>
+
+	<!-- Настройка: показывать следующие фигуры -->
+	<string name="settings_next_title">Следующие фигуры</string>
+	<string name="settings_next_summary">Выводить очередь следующих фигур</string>
+
+	<!-- Настройка: формировать цветное поле -->
+	<string name="settings_colorgrid_title">Цветное поле</string>
+	<string name="settings_colorgrid_summary">Оставлять упавшие фигуры цветными</string>
+
+	<!-- Настройка: формировать класические фигуры -->
+	<string name="settings_figure_classic_title">Классические фигуры</string>
+	<string name="settings_figure_classic_summary">Рисовать классические фигуры</string>
+
+	<!-- Настройка: звуковое сопровождение -->
+	<string name="settings_sound_title">Звук</string>
+	<string name="settings_sound_summary">Включение звукового сопровождения</string>
+
+	<!--
+		РАСЧЕТ БОНУСА 
+	 -->
+
+	<!-- Заголовок активности -->
+	<string name="levelup_header_text">УРОВЕНЬ ▲</string>
+
+	<!-- Надпись "БОНУС" -->
+	<string name="levelup_bonus_text">БОНУС</string>
+
+	<!-- Надпись "ВСЕГО ОЧКОВ" -->
+	<string name="levelup_score_text">ВСЕГО ОЧКОВ</string>
+
+	<string name="levelup_singles">SINGLES</string>
+	<string name="levelup_doubles">DOUBLES</string>
+	<string name="levelup_triples">TRIPLES</string>
+	<string name="levelup_tetroid">TETROID</string>
+	
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<color name="play_color_view">#000000</color>
+	<color name="play_color_grid">#303030</color>
+	<color name="play_color_statistic_name">#CCCCCC</color>
+	<color name="play_color_statistic_number">#FFFFFF</color>
+</resources>

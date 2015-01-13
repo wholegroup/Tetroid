@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<!-- Имена по-умолчанию в таблице рекордов -->
+	<string-array name="names">
+		<item>Jolka Polka</item>
+		<item>Tommy Atkins</item>
+		<item>John Doe</item>
+		<item>Wendy Wellesley</item>
+		<item>Lady Muck</item>
+		<item>Mrs Kafoops</item>
+		<item>Uncle Tom</item>
+		<item>Fred Bloggs</item>
+		<item>Justin Case</item>
+		<item>Joe Shmoe</item>
+	</string-array>
+	
+	<!-- Очки по-умолчанию в таблице рекордов -->
+	<integer-array name="scores">
+		<item>10000</item>
+		<item>9000</item>
+		<item>8000</item>
+		<item>7000</item>
+		<item>6000</item>
+		<item>5000</item>
+		<item>4000</item>
+		<item>3000</item>
+		<item>2000</item>
+		<item>1000</item>
+	</integer-array>
+
+	<!-- Линии по-умолчанию в таблице рекордов -->
+	<integer-array name="lines">
+		<item>100</item>
+		<item>90</item>
+		<item>80</item>
+		<item>70</item>
+		<item>60</item>
+		<item>50</item>
+		<item>40</item>
+		<item>30</item>
+		<item>20</item>
+		<item>10</item>
+	</integer-array>
+</resources>
